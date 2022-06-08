@@ -1,0 +1,15 @@
+global using NUnit.Framework;
+global using OpenQA.Selenium;
+global using OpenQA.Selenium.Chrome;
+global using System;
+global using System.Collections.Generic;
+global using System.Linq;
+global using System.Text;
+global using System.Threading.Tasks;
+global using TestProject1.BaseClass;
+global using OpenQA.Selenium.Support.UI;
+global using TestProject1.Utilities;
+global using OpenQA.Selenium.Firefox;
+global using OpenQA.Selenium.IE;
+global using OpenQA.Selenium.Edge;
+global using System.Collections;
