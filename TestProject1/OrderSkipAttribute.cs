@@ -16,11 +16,12 @@ namespace TestProject1
             email.SendKeys("Selenium c#");
             driver.Close();
         }
-       
-        [Test, Order(1), Category("OrderSkipAttribute")]
-        public void Test3()
+
+        [Test, Order(2), Category("OrderSkipAttribute")]
+        public void Test()
         {
-            IWebDriver driver = new EdgeDriver();
+            //Assert.Ignore("Defect 12345");
+            IWebDriver driver = new ChromeDriver();
             driver.Url = "https://pl-pl.facebook.com/";
             IWebElement email = driver.FindElement(By.XPath(".//*[@id='email']"));
             email.SendKeys("Selenium c#");

@@ -44,20 +44,6 @@ namespace TestProject1
            
         }
 
-     /*   [Test]
-        [Author("Mateusz Nosel 13397", "mateusz.nosel@microsoft.wsei.edu.pl")]
-        [Description("Facebook login verify")]
-        public void Test2()
-        {
-            IWebDriver driver = new ChromeDriver();
-            driver.Manage().Window.Maximize();
-            driver.Url = "https://pl-pl.facebook.com/";
-
-            IWebElement email = driver.FindElement(By.XPath(".//*[@id='email']"));
-            email.SendKeys("Selenium c#");
-            driver.Quit();
-        }*/
-
         static IList DataDrivenTesting()
         {
             ArrayList list = new ArrayList();
